@@ -13,6 +13,10 @@ public class Library {
         books.add(book);
     }
 
+    public ArrayList<Book> getBooks() {
+        return books;
+    }
+
     public void listBooks() {
         if (books.isEmpty()) {
             System.out.println("Kirjastossa ei ole kirjoja");
